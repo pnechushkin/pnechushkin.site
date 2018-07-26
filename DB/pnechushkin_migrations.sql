@@ -1,0 +1,2 @@
+UPDATE pnechushkin.migrations SET migration = '2014_10_12_000000_create_users_table', batch = 1 WHERE id = 1;
+UPDATE pnechushkin.migrations SET migration = '2014_10_12_100000_create_password_resets_table', batch = 1 WHERE id = 2;
