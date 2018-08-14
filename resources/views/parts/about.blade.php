@@ -20,7 +20,7 @@
         <div class="row">
 
             <div class="col-md-6">
-                <img src="img/dummy1.jpg" alt="" class="img-responsive"/>
+                <img src="/img/dummy1.jpg" alt="" class="img-responsive"/>
 
             </div>
 

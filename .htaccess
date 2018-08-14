@@ -1,4 +1,17 @@
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On
+    # serve existing files in the /public folder as if they were in /
+#    RewriteCond /www/public%{REQUEST_URI} -f
+#    RewriteRule (.+) /public/$1 [L]
+
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On
+#    RewriteRule ^(.*)$ public/$1 [L]
+#</IfModule>
+
+# hosting
 <IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteRule ^(.*)$ public/$1 [L]
+RewriteEngine on
+RewriteRule ^$ public/ [L]
+RewriteRule ((?s).*) public/$1 [L]
 </IfModule>

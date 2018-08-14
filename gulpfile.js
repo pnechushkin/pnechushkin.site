@@ -45,5 +45,20 @@ elixir(function (mix) {
     mix.webpack([
         'main.js',
     ], 'resources/assets/js/all.js');
-    mix.webpack('app.js')
+    // mix.webpack('app.js')
+    mix.webpack([
+        // 'resources/assets/js/template/jquery.min.js',
+        // 'resources/assets/js/template/bootstrap.min.js',
+        'resources/assets/js/template/jquery.sticky.js',
+        // 'resources/assets/js/template/jquery.flexslider-min.js',
+        // 'resources/assets/js/template/jquery.easing.min.js',
+        'resources/assets/js/template/jquery.scrollTo.js',
+        'resources/assets/js/template/jquery.appear.js',
+        'resources/assets/js/template/stellar.js',
+        // 'resources/assets/js/template/wow.min.js',
+        // 'resources/assets/js/template/owl.carousel.min.js',
+        // 'resources/assets/js/template/nivo-lightbox.min.js',
+        'resources/assets/js/template/custom.js'
+    ], 'public/js/libs.js');
+
 });
