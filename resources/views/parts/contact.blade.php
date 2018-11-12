@@ -1,7 +1,14 @@
 <section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center">
+
     <div class="container marginbot-50">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
+                <div class="input-group date" data-provide="datepicker">
+                    <input type="text" class="form-control">
+                    <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-th"></span>
+                    </div>
+                </div>
                 <div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
                     <div class="section-heading text-center">
                         <h2 class="h-bold">Contact us</h2>

@@ -9,6 +9,11 @@ window._ = require('lodash');
 
 window.$ = window.jQuery = require('jquery');
 require('bootstrap-sass');
+window.moment = require('moment');
+window.datepicker = require('bootstrap-datepicker');
+
+// wow = require('wow');
+// sticky = require('jquery-sticky');
 // require('jquery-sticky');
 // require('flexslider');
 // require('jquery.easing');

@@ -20,19 +20,24 @@
         </div>
     </div>
 </footer>
+{{--<script src="/js/app.js"></script>--}}
+{{--<script src="/js/libs.js"></script>--}}
 <script src="/js/app.js"></script>
-<script src="js/template/jquery.min.js"></script>
-<script src="js/template/bootstrap.min.js"></script>
+{{--<script src="" integrity="sha256-ncetQ5WcFxZU3YIwggfwOwmewLVX4SHLBtDYnrsxooY=" crossorigin="anonymous"></script>--}}
+<script src="/js/all.js"></script>
+
+{{--<script src="js/template/jquery.min.js"></script>--}}
+{{--<script src="js/template/bootstrap.min.js"></script>--}}
 {{--<script src="js/template/jquery.sticky.js"></script>--}}
-<script src="js/template/jquery.flexslider-min.js"></script>
-<script src="js/template/jquery.easing.min.js"></script>
+{{--<script src="js/template/jquery.flexslider-min.js"></script>--}}
+{{--<script src="js/template/jquery.easing.min.js"></script>--}}
 {{--<script src="js/template/jquery.scrollTo.js"></script>--}}
 {{--<script src="js/template/jquery.appear.js"></script>--}}
 {{--<script src="js/template/stellar.js"></script>--}}
-<script src="js/template/wow.min.js"></script>
-<script src="js/template/owl.carousel.min.js"></script>
-<script src="js/template/nivo-lightbox.min.js"></script>
+{{--<script src="js/template/wow.min.js"></script>--}}
+{{--<script src="js/template/owl.carousel.min.js"></script>--}}
+{{--<script src="js/template/nivo-lightbox.min.js"></script>--}}
 {{--<script src="js/template/custom.js"></script>--}}
-<script src="/js/libs.js"></script>
+{{--<script src="/js/libs.js"></script>--}}
 
 

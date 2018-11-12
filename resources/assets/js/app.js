@@ -6,8 +6,6 @@
  */
 
 require('./bootstrap');
-// require('./template');
-require('./all');
 
 
 /**
@@ -21,4 +19,3 @@ require('./all');
 // const app = new Vue({
 //     el: '#app'
 // });
-
