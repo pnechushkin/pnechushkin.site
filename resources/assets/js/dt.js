@@ -1,6 +1,6 @@
 $.fn.datepicker.defaults.format = "mm.dd.yyyy";
-$.fn.datepicker.defaults.dates = "ru";
-// $.fn.datepicker.defaults.startDate = '-3d';
+$.fn.datepicker.defaults.language = "ru";
+$.fn.datepicker.defaults.startDate = '-3d';
 
 
 $(document).ready(function () {

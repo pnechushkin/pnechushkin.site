@@ -1,5 +1,6 @@
+require( '../../../node_modules/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js');
 $.fn.datepicker.defaults.format = "mm.dd.yyyy";
-$.fn.datepicker.defaults.dates = "ru";
+$.fn.datepicker.defaults.language = "ru";
 // $.fn.datepicker.defaults.startDate = '-3d';
 
 

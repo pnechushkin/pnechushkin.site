@@ -11,9 +11,9 @@ window.$ = window.jQuery = require('jquery');
 require('bootstrap-sass');
 window.moment = require('moment');
 window.datepicker = require('bootstrap-datepicker');
+window.sticky = require('jquery-sticky');
+// window.WOW = require('wowjs');
 
-// wow = require('wow');
-// sticky = require('jquery-sticky');
 // require('jquery-sticky');
 // require('flexslider');
 // require('jquery.easing');
