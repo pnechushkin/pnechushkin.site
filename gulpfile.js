@@ -22,7 +22,6 @@ elixir(function (mix) {
 
     //template files
     mix.copy('resources/assets/fonts/template', 'public/fonts/template');
-
     mix.copy('resources/assets/img', 'public/img');
     mix.styles(['template/'], 'public/css/template.css');
     mix.styles([
@@ -42,16 +41,17 @@ elixir(function (mix) {
 
 
     mix.scripts([
-        // "../template_Shuffle/js/jquery.min.js",
-        // "../template_Shuffle/js/jquery.sticky.js",
-        // "../template_Shuffle/js/jquery.flexslider-min.js",
-        // "../template_Shuffle/js/jquery.easing.min.js",
-        // "../template_Shuffle/js/jquery.scrollTo.js",
-        // "../template_Shuffle/js/jquery.appear.js",
-        // "../template_Shuffle/js/stellar.js",
-        // "../template_Shuffle/js/wow.min.js",
-        // "../template_Shuffle/js/owl.carousel.min.js",
+        // // "../template_Shuffle/js/jquery.min.js",
+        // // "../template_Shuffle/js/jquery.sticky.js",
+        // // "../template_Shuffle/js/jquery.flexslider-min.js",
+        // // "../template_Shuffle/js/jquery.easing.min.js",
+        // // "../template_Shuffle/js/jquery.scrollTo.js",
+        // // "../template_Shuffle/js/jquery.appear.js",
+        // // "../template_Shuffle/js/stellar.js",
+        // // "../template_Shuffle/js/wow.min.js",
+        // // "../template_Shuffle/js/owl.carousel.min.js",
         "../../../node_modules/wowjs/dist/wow.min.js",
+        // // "../../../node_modules/jquery-sticky/jquery.sticky.js",
         "../template_Shuffle/custom.js"
     ], 'public/js/template.js');
 

@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-2">
                     <div class="site-logo">
-                        <a href="index.html" class="brand">Название сайта</a>
+                        <a href="/" class="brand">{{config( 'app.name' )}}</a>
                     </div>
                 </div>
 

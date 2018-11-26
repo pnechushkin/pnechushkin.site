@@ -19,9 +19,9 @@
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <div class="wow bounceInUp" data-wow-delay="0.4s">
                     <div id="owl-works" class="owl-carousel">
-                        <div class="item"><a href="img/works/1.jpg" title="This is an image title"
+                        <div class="item"><a href="/img/works/1.jpg" title="This is an image title"
                                              data-lightbox-gallery="gallery1"
-                                             data-lightbox-hidpi="img/works/1@2x.jpg"><img src="img/works/1.jpg"
+                                             data-lightbox-hidpi="/img/works/1@2x.jpg"><img src="img/works/1.jpg"
                                                                                            class="img-responsive"
                                                                                            alt="img"></a></div>
                         <div class="item"><a href="img/works/2.jpg" title="This is an image title"
