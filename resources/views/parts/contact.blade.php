@@ -50,7 +50,7 @@
                     </div>
 
                     <div class="text-center">
-                        <button type="submit" class="btn btn-skin btn-lg btn-block">Send Message</button>
+                        <button type="submit" class="btn btn-skin btn-lg btn-block contact-btn">Send Message</button>
                     </div>
                 </form>
 
