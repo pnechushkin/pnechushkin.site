@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-2">
                     <div class="site-logo">
-                        <a href="/" class="brand">{{config( 'app.name' )}}</a>
+                        <a href="/" class="brand">DEV</a>
                     </div>
                 </div>
 
@@ -13,7 +13,7 @@
 
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                        <button type="button" class="navbar-toggle glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#menu">
                             <i class="fa fa-bars"></i>
                         </button>
                     </div>

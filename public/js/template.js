@@ -99,7 +99,10 @@ var $ = jQuery;
 	$('.contact-btn').click(function () {
 		alert('Coming soon all be work');
 		return false;
-    })
+    });
+
+
+    $('#summernote').summernote();
 	
 })(jQuery);
 

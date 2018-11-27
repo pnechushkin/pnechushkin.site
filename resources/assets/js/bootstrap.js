@@ -17,6 +17,8 @@ window.owlCarousel = require('owl.carousel');
 window.appear = require('jquery.appear');
 window.easing = require('jquery.easing');
 window.flexslider = require('flexslider');
+// window.wysiwyg= require('wysiwyg');
+// window.summernote = require('summernote/dist');
 // require('jquery-sticky');
 // require('flexslider');
 // require('jquery.easing');

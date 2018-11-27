@@ -1,13 +1,18 @@
 //// Fonts
-////@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
-////@import "../fonts/template/font-awesome";
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+//@import "../fonts/template/font-awesome";
 //
 //
 //
 // Bootstrap
-//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 //// Variables
-//@import "variables";
+@import "variables";
 //
 ////template
-//@import "template/template";
+@import "template/templateAll.scss";
+//@import "./template_Shuffle/css/flexslider.css";
+//@import "./template_Shuffle/css/nivo-lightbox.css";
+//@import "./template_Shuffle/css/owl.carousel.css";
+//@import "./template_Shuffle/css/owl.theme.css";
+//@import "./template_Shuffle/css/style.css";

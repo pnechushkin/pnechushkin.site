@@ -22,10 +22,15 @@ elixir(function (mix) {
 
     //template files
     mix.copy('resources/assets/fonts/template', 'public/fonts/template');
-    mix.copy('resources/assets/img', 'public/img');
+    mix.copy('resources/assets/fonts/template', 'public/fonts/template');
+    mix.copy('node_modules/bootstrap-sass/assets/fonts', 'public/fonts');
+    // mix.copy('E:\\OSPanel\\domains\\pnechushkin.loc\\node_modules\\bootstrap-sass\\assets\\fonts\\bootstrap', 'public/img');
     mix.styles(['template/'], 'public/css/template.css');
     mix.styles([
-        '../../../node_modules/bootstrap-datepicker/dist/css/'], 'public/css/libs.css');
+
+        '../../../node_modules/bootstrap-datepicker/dist/css/summernote.css',
+        '../../../node_modules/summernote/dist/css/'
+    ], 'public/css/libs.css');
 
     // mix.webpack([
     //     'main.js',
@@ -35,6 +40,7 @@ elixir(function (mix) {
     // mix.webpack('libs.js', 'resources/assets/js/libs/libs.js');
     // mix.webpack('main.js', 'public/js/main.js');
     mix.scripts([
+        "../../../node_modules/summernote/dist/summernote.js",
         "../../../node_modules/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js",
         "dt.js"
     ], 'public/js/main.js');
@@ -54,6 +60,15 @@ elixir(function (mix) {
         // // "../../../node_modules/jquery-sticky/jquery.sticky.js",
         "../template_Shuffle/custom.js"
     ], 'public/js/template.js');
-
-
+    mix.sass('app.scss')
+    mix.styles(
+        [
+            "../template_Shuffle/css/animate.css",
+ "../template_Shuffle/css/flexslider.css",
+ "../template_Shuffle/css/nivo-lightbox.css",
+ "../template_Shuffle/css/owl.carousel.css",
+ "../template_Shuffle/css/owl.theme.css",
+ "../template_Shuffle/css/style.css",
+        ],'resources/assets/sass/template/templateAll.scss'
+    );
 });
