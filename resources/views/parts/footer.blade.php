@@ -20,12 +20,10 @@
         </div>
     </div>
 </footer>
-{{--<script src="/js/app.js"></script>--}}
-{{--<script src="/js/libs.js"></script>--}}
 <script src="/js/app.js"></script>
 {{--<script src="" integrity="sha256-ncetQ5WcFxZU3YIwggfwOwmewLVX4SHLBtDYnrsxooY=" crossorigin="anonymous"></script>--}}
-<script src="/js/main.js"></script>
 <script src="/js/template.js"></script>
+<script src="/js/main.js"></script>
 
 {{--<script src="js/template/jquery.min.js"></script>--}}
 {{--<script src="js/template/bootstrap.min.js"></script>--}}

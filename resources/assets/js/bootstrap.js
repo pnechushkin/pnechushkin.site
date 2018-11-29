@@ -9,25 +9,9 @@ window._ = require('lodash');
 
 window.$ = window.jQuery = require('jquery');
 require('bootstrap-sass');
-window.moment = require('moment');
 window.datepicker = require('bootstrap-datepicker');
-window.sticky = require('jquery-sticky');
-// window.wow = require('wowjs');
-window.owlCarousel = require('owl.carousel');
-window.appear = require('jquery.appear');
-window.easing = require('jquery.easing');
-window.flexslider = require('flexslider');
-// window.wysiwyg= require('wysiwyg');
-// window.summernote = require('summernote/dist');
-// require('jquery-sticky');
-// require('flexslider');
-// require('jquery.easing');
-// require('jquery-scrollTo');
-// require('jquery.appear');
-// require('jquery.stellar');
-// require('owl.carousel');
-// require('nivo');
-// window.wow = require('wow');
+window.moment = require('moment');
+
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
  * using reactive data binding and reusable components. Vue's API is clean

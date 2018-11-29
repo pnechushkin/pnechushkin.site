@@ -71,7 +71,7 @@ var $ = jQuery;
             itemsMobile : [480,2],
         });
 	//
-	// //nivo lightbox
+	//nivo lightbox
 	// $('.owl-carousel .item a').nivoLightbox({
 	// 	effect: 'fadeScale',                             // The effect to use when showing the lightbox
 	// 	theme: 'default',                           // The lightbox theme to use
@@ -100,6 +100,5 @@ var $ = jQuery;
     });
 
 
-    $('#summernote').summernote();
-	
+
 })(jQuery);
