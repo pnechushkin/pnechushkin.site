@@ -1,10 +1,10 @@
 @extends('layouts.home')
 @section('content')
     @include('parts.navigation')
-    <section>
+    <section class="single-page">
         <div class="container">
             <h1>Добавить запись</h1>
-            <form method="post" class="form-horizontal" role="form">
+            <form method="post" class="form-horizontal" enctype="multipart/form-data" role="form">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div class="form-group">
                     <label for="title" class="col-sm-2 control-label">Title</label>
@@ -22,6 +22,12 @@
                     <label for="content" class="col-sm-2 control-label">Content</label>
                     <div class="col-sm-10">
                         <textarea type="text" class="form-control summernote" name="content" id="content" ></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="attached_image" class="col-sm-2 control-label">Attached Image</label>
+                    <div class="col-sm-10">
+                        <input type="file" accept="image/jpeg,image/png" class="form-control" name="attached_image" id="attached_image" >
                     </div>
                 </div>
                 <div class="col-sm-offset-2 col-sm-10">

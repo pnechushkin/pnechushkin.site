@@ -10,9 +10,10 @@
 
 
                 <div class="col-md-10">
-                <!-- Brand and toggle get grouped for better mobile display -->
+                    <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#menu">
+                        <button type="button" class="navbar-toggle glyphicon glyphicon-menu-hamburger"
+                                data-toggle="collapse" data-target="#menu">
                             <i class="fa fa-bars"></i>
                         </button>
                     </div>
@@ -23,8 +24,18 @@
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#service">Services</a></li>
                             <li><a href="#works">Works</a></li>
-
                             <li><a href="#contact">Contact</a></li>
+                            @if (Auth::user())
+                                <li><a class="blog-nav-item" href="{{ url('/logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        Logout
+                                    </a></li>
+                                <form id="logout-form" action="{{ url('/logout') }}" method="POST"
+                                      style="display: none;">
+                                    {{ csrf_field() }}
+                                </form>
+                            @endif
                         </ul>
                     </div>
                     <!-- /.Navbar-collapse -->

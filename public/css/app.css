@@ -11653,4 +11653,9 @@ a.btn:focus {
   color: black !important;
 }
 
+.single-page {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
 /*# sourceMappingURL=app.css.map */
