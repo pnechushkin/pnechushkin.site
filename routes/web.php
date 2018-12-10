@@ -22,6 +22,11 @@ Route::get('/home', 'HomeController@index');
 Route::get('/main', function () {
 	return view('home');
 });
-Route::get('/test', function () {
-	return view('test');
+
+
+//Admin Route
+Route::group(['prefix' => 'admin','middleware' => 'admin'], function()
+{
+	Route::get('/add-page', 'PagesController@index');
+	Route::post('/add-page', 'PagesController@save');
 });

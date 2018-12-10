@@ -9,8 +9,9 @@ $(document).ready(function () {
     console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
     // var $j = jQuery.noConflict();
     $('.data').datepicker();
-    $('#summernote').summernote({
-        lang: 'ru-RU'
+    $('.summernote').summernote({
+        lang: 'ru-RU',
+        height: 200,
     });
 
 });

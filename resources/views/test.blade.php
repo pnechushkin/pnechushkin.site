@@ -1,24 +1,24 @@
-@extends('layouts.home')
-@section('content')
-    @include('parts.navigation')
-    <section>
-        <div class="container">
-            <div class="input-group date" data-provide="datepicker">
-                <input type="text" class="form-control">
-                <div class="input-group-addon">
-                    <span class="glyphicon glyphicon-th"></span>
+    @extends('layouts.home')
+    @section('content')
+        @include('parts.navigation')
+        <section>
+            <div class="container">
+                <h1>Добавить запись</h1>
+                <div class="row form-group">
+                    <label>Title
+                    <input name="title"></label>
+                </div>
+                <div class="row form-group">
+                    <label>alias
+                    <input name="alias"></label>
+                </div>
+                <div class="row form-group">
+                    <textarea id="summernote" name="content">Hello Summernote</textarea>
+                </div>
+                <div class="row text-center form-group">
+                    <button class="btn btn-skin btn-lg btn-block contact-btn">Save</button>
                 </div>
             </div>
-            <div >
-                <div id="summernote">Hello Summernote</div>
-            </div>
-            <div class="btn-group">
-                <a class="btn" data-edit="bold" title="Bold (Ctrl/Cmd+B)"><i class="icon-bold"></i></a>
-                <a class="btn" data-edit="italic" title="Italic (Ctrl/Cmd+I)"><i class="icon-italic"></i></a>
-                <a class="btn" data-edit="strikethrough" title="Strikethrough"><i class="icon-strikethrough"></i></a>
-                <a class="btn" data-edit="underline" title="Underline (Ctrl/Cmd+U)"><i class="icon-underline"></i></a>
-            </div>
-        </div>
-    </section>
-    @include('parts.footer')
-@endsection
+        </section>
+        @include('parts.footer')
+    @endsection

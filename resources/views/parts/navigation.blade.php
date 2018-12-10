@@ -10,8 +10,7 @@
 
 
                 <div class="col-md-10">
-
-                    <!-- Brand and toggle get grouped for better mobile display -->
+                <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#menu">
                             <i class="fa fa-bars"></i>

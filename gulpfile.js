@@ -45,15 +45,16 @@ elixir(function (mix) {
 
     mix.styles([
         '../../../node_modules/summernote/dist/summernote.css',
+        '../../../node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.css',
         "../template_Shuffle/css/animate.css",
         "../template_Shuffle/css/flexslider.css",
         "../template_Shuffle/css/nivo-lightbox.css",
         "../template_Shuffle/css/owl.carousel.css",
         "../template_Shuffle/css/owl.theme.css",
         "../template_Shuffle/css/style.css",
-    ],'resources/assets/sass/template/templateAll.scss'
+    ],'resources/assets/sass/template/templateAll.css'
 );
     mix.sass('app.scss');
-    mix.webpack('app.js', 'public/js/app.js');
+    mix.webpack('app.js');
 
 });
