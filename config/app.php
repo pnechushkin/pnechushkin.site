@@ -228,4 +228,7 @@ return [
 
     ],
 
+
+	'GoogleRecaptchaKey'=>'6LeouYAUAAAAALaKL7xlWiVAHlWEtOAMiRWRdWCI',
+	'SeckretGoogleRecaptchaKey'=>'6LeouYAUAAAAAKtTmcN2xkZciE7HHoEs-0ZRVZxC',
 ];

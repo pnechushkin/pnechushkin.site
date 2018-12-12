@@ -94,9 +94,25 @@ var $ = jQuery;
 			jQuery('.nav li').removeClass('active');
 			jQuery(".nav a[href='#" + id + "']").parent().addClass("active");
 		});
-	$('.contact-btn').click(function () {
-		alert('Coming soon all be work');
-		return false;
+    // sendmessage
+    $('.contact-btn').click(function () {
+        var data = $('.contactForm').serialize();
+        console.log('sendmessage');
+        $.ajax({
+            type:'POST',
+            url:'/sendmessage',
+            dataType : 'json',
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            data:data,
+            success:function(data){
+                console.log(data);
+            }
+        });
+
+
+        return false;
     });
 
 

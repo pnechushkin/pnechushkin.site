@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/{alias?}', 'PagesController@rout');
+Route::any('/{alias?}', 'PagesController@rout');
 
 Auth::routes();
 

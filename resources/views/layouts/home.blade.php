@@ -8,6 +8,8 @@
     <title>Document</title>
     <link href="/css/app.css" rel="stylesheet">
     <link href="/css/template.css" rel="stylesheet">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     {{--<link rel="stylesheet" href="/fonts/template/font-awesome/css/font-awesome.min.css">--}}
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">

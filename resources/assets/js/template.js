@@ -94,10 +94,8 @@ var $ = jQuery;
 			jQuery('.nav li').removeClass('active');
 			jQuery(".nav a[href='#" + id + "']").parent().addClass("active");
 		});
-	$('.contact-btn').click(function () {
-		alert('Coming soon all be work');
-		return false;
-    });
+
+
 
 
 

@@ -7760,5 +7760,8 @@ $(document).ready(function () {
         height: 200,
     });
 
+
+    // sendmessage
+
 });
 //# sourceMappingURL=main.js.map
