@@ -97,7 +97,7 @@ var $ = jQuery;
     // sendmessage
     $('.contact-btn').click(function () {
         var data = $('.contactForm').serialize();
-        console.log('sendmessage');
+        console.log(data);
         $.ajax({
             type:'POST',
             url:'/sendmessage',

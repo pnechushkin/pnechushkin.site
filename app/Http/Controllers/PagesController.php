@@ -24,7 +24,8 @@ class PagesController extends Controller
 //	    TODO добавить ключи гугл каптчи в env
 	    if ($alias =='sendmessage' && $this->request->ajax()){
     		$response = $_POST['g-recaptcha-response'];
-    		dd(GoogleRecaptcha::validation($response,config('app.SeckretGoogleRecaptchaKey')));
+		    $seckretKey = config('app.SeckretGoogleRecaptchaKey');
+    		dd(GoogleRecaptcha::validation($response,$seckretKey));
     		return 'Ajax';
 	    }
 //	    GoogleRecaptcha::class
