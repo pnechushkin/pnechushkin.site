@@ -20,35 +20,34 @@
 
         <div class="row marginbot-80">
             <div class="col-md-8 col-md-offset-2">
-                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
                 <form method="post" role="form" class="contactForm">
                     {{ csrf_field() }}
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                               data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя * "
+                               data-rule="minlen:4" data-msg="Минимум 4 символа"/>
                         <div class="validation"></div>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                               data-rule="email" data-msg="Please enter a valid email"/>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Ваш Email *"
+                               data-rule="email" data-msg="Укажите корректный Email"/>
                         <div class="validation"></div>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                               data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject"/>
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Тема сообщения *"
+                               data-rule="minlen:4" data-msg="Укажите тему Ващего письма не менее 4 символов"/>
                         <div class="validation"></div>
                     </div>
                     <div class="form-group">
                         <textarea class="form-control" name="message" rows="5" data-rule="required"
-                                  data-msg="Please write something for us" placeholder="Message"></textarea>
+                                  data-msg="Напишите Ваше сообщение" placeholder="Текст сообщения *"></textarea>
                         <div class="validation"></div>
                     </div>
                     <div class="form-group">
                         <div class="g-recaptcha" data-sitekey="{{config('app.GoogleRecaptchaKey','')}}"></div>
                         <div class="validation"></div>
                     </div>
-
+                    <div id="sendmessage"></div>
+                    <div id="errormessage"></div>
                     <div class="text-center">
                         <button type="submit" class="btn btn-skin btn-lg btn-block contact-btn">Send Message</button>
                     </div>
