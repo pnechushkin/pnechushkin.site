@@ -10,8 +10,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Маршруты аутентификации...
+//Route::get('auth/login', 'Auth\AuthController@getLogin');
+//Route::post('auth/login', 'Auth\AuthController@postLogin');
+//Route::get('auth/logout', 'Auth\AuthController@getLogout');
 
-Route::any('/{alias?}', 'PagesController@rout');
+
+Route::get('/{alias?}', 'PagesController@rout');
+Route::post('/sendmessage', 'PagesController@sendmessage');
 
 Auth::routes();
 
@@ -25,6 +31,7 @@ Route::get('/main', function () {
 //Admin Route
 Route::group(['prefix' => 'admin','middleware' => 'admin'], function()
 {
+	Route::get('/home', 'Admin@index');
 	Route::get('/add-page', 'PagesController@index');
 	Route::post('/add-page', 'PagesController@save');
 });
