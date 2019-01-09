@@ -1,6 +1,6 @@
-    @extends('layouts.home')
+    @extends('layouts.pages')
     @section('content')
-        @include('parts.navigation')
+        @include('parts.activnavigation')
         <section>
             <div class="container">
                 <h1>Добавить запись</h1>

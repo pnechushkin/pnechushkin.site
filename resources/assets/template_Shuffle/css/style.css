@@ -158,7 +158,7 @@ blockquote strong {
 .site-logo a.brand {
 	color: #111;
 	text-transform: uppercase;
-	font-size: 32px;
+	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 }
@@ -1017,6 +1017,7 @@ a.btn:focus{
 
 }
 @media (max-width:768px) {
+
 	#navigation {
 		padding: 20px 0;
 	}

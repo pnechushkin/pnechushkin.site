@@ -16,7 +16,7 @@ class PagesController extends Controller {
 	protected $request;
 
 	public function index() {
-		return View( 'AddPage' );
+		return View( 'AddPage',['title'=>'Сайт-визинтка разработчика'] );
 	}
 
 //	function __construct( Request $request ) {
@@ -25,7 +25,7 @@ class PagesController extends Controller {
 
 	public function rout( $alias = null ) {
 		if ( empty( $alias ) ) {
-			return view( 'home' );
+			return view( 'home',['title'=>'Сайт-визинтка разработчика'] );
 		}
 		if ( $alias == 'login' ) {
 			if ( Auth::user() ) {

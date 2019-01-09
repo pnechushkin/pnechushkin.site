@@ -1016,6 +1016,9 @@ a.btn:focus{
 
 }
 @media (max-width:768px) {
+	.site-logo a.brand{
+		font-size: 16px;
+	}
 	#navigation {
 		padding: 20px 0;
 	}
