@@ -1,7 +1,7 @@
 @extends('layouts.home')
 @section('content')
     @include('parts.navigation')
-    @include('parts.intro')
+    @include('parts.summary')
     @include('parts.about')
     @include('parts.services')
     @include('parts.works')
