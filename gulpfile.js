@@ -52,7 +52,7 @@ elixir(function (mix) {
         "../template_Shuffle/css/owl.carousel.css",
         "../template_Shuffle/css/owl.theme.css",
         "../template_Shuffle/css/style.css",
-    ],'resources/assets/sass/template/templateAll.css'
+    ],'resources/assets/sass/template/templateAll.scss'
 );
     mix.sass('app.scss');
     mix.webpack('app.js');
