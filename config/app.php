@@ -231,4 +231,9 @@ return [
 
 	'GoogleRecaptchaKey'        => env( 'GoogleRecaptchaKey', '6LeouYAUAAAAALaKL7xlWiVAHlWEtOAMiRWRdWCI' ),
 	'SeckretGoogleRecaptchaKey' => env( 'SeckretGoogleRecaptchaKey', '6LeouYAUAAAAAKtTmcN2xkZciE7HHoEs-0ZRVZxC' ),
+
+//	contacts data
+	'ContactName'        => env( 'ContactName', 'Pavel Nechushkin' ),
+	'ContactMail' => env( 'ContactMail', 'pnechushkin@gmail.com' ),
+
 ];
