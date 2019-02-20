@@ -28,6 +28,7 @@ Route::get('/main', function () {
 });
 
 
+
 //Admin Route
 Route::group(['prefix' => 'admin','middleware' => 'admin'], function()
 {
