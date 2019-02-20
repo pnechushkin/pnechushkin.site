@@ -27,9 +27,7 @@
     "moment": "^2.22.2",
     "nivo": "^0.31.0",
     "owl.carousel": "^2.3.4",
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
     "summernote": "^0.8.11",
-    "wowjs": "^1.1.3"
+    "wowjs": ""
   }
 }
